@@ -1,0 +1,152 @@
+
+body {
+    margin: 0;
+    background-color: #edeef0;
+    font-family: Arial;
+}
+
+div {
+    /*border: 1px solid red;*/
+}
+
+.form_du {
+    display: inline-block;
+}
+
+#error_delete {
+    color: red;
+    font-weight: normal;
+    margin: 8px 0 0 0;
+}
+
+.input_delete, .input_update {
+    border: none;
+    background-color: #ffffff;
+    color: dodgerblue;
+    font-size: 14pt;
+}
+
+.input_delete:hover, .input_update:hover {
+    cursor: pointer;
+}
+
+.staff_select, .training_select {
+    margin: 5px;
+    display: block;
+}
+
+#menu ul {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    box-shadow: 0 0 10px 1px #bfbdbd;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 0;
+    /*background-color: #cbd5e0;*/
+    /*border-radius: 6px;*/
+}
+
+#menu ul li a {
+    text-decoration: none;
+    padding: 10px 10px 11px 10px;
+    color: black;
+    border-radius: 6px;
+}
+
+#menu ul li a:hover {
+    background-color: #edf2f7;
+}
+
+#header {
+    box-shadow: 0 0 10px 1px #bfbdbd;
+    padding: 20px 40px 20px 40px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#header h1 {
+    font-size: 18pt;
+    margin: 0;
+    display: inline-block;
+}
+
+.add {
+    font-size: 18pt;
+    display: inline-block;
+    float: right;
+}
+
+.add a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.row {
+    border-color: lawngreen;
+}
+
+.row-content {
+    margin: 20px 10px 20px 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 50%;
+    min-height: 50px;
+    padding: 20px 10px 20px 20px;
+    box-shadow: 0 0 10px 1px #bfbdbd;
+}
+
+.row-content p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.row-content p span {
+    font-weight: normal;
+    display:inline-block;
+    margin: 5px;
+}
+table {
+    margin: 5px auto;
+    text-align: center;
+}
+
+table, table tr th, table tr td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table tr th, table tr td {
+    padding: 5px;
+}
+
+.input_date_read {
+    border: 0;
+    width: 125px;
+}
+
+.row-content form label input {
+    display: block;
+    margin: 5px;
+}
+
+form {
+    margin: 5px 0 10px 0;
+}
+
+#footer {
+    min-height: 50px;
+    box-shadow: 0 0 10px 1px #bfbdbd;
+    padding: 20px 0 20px 40px;
+    margin: 20px 0 0 0;
+    background-color: #ffffff;
+}
+
+.ptableotchet {
+    font-weight: 100;
+    text-align: center;
+}
